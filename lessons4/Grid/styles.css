@@ -1,0 +1,6 @@
+.container{
+    display: grid;
+    background-color: aquamarine;
+    grid-template-areas: none;
+    
+}
