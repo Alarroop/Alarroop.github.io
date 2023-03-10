@@ -1,16 +1,63 @@
-.customDIV{
-    background-color: rgb(113, 120, 126);
+.customDIV,
+.customDIV2 {
+    background-color: #6ad449;
     width: 100px;
     text-align: center;
     line-height: 80px;
     font-size: 35px;
 }
-.container
+.customDIV2 {
+    width: 300px;
+}
+.container,
 .container3 {
     display: flex;
 }
 .container2,
-.container4{
+.container4 {
     display: flex;
     flex-direction: column;
 }
+.container3{
+    flex-direction: row-reverse;
+}
+.container5{
+    flex-direction: column-reverse;
+}
+.container6{
+    display: flex;
+}
+.container7{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container8{
+    display: flex;
+    justify-content: center;
+}
+.container9{
+    display: flex;
+    justify-content: space-around;
+}
+,.container10{
+    display: flex;
+    justify-content: space-between;
+}
+.container11{
+    display: flex;
+}
+
+.container11 >.customDIV{ 
+    margin-right: 25px;
+}
+.container12{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container12 > .customDIV{
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+}
+
