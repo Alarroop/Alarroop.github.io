@@ -58,6 +58,104 @@
     margin-bottom: 25px;
     margin-right: 25px;
 }
+.container13{
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+.container14{
+    display: flex;
+    height: 300px;
+    align-items: stretch;
+}
+.container15{
+    display: flex;
+    height: 300px;
+    align-items: end;
+}
+.container16{
+    display: flex;
+    height: 300px;
+    align-content:space-between;
+    flex-wrap: wrap;
+}
+.container17{
+    display: flex;
+    height: 300px;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.container18{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: last baseline;
+    height: 500px;
 
 }
+.container19{
+    display: flex;
 
+}
+.container20{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container21{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+@media only screen and (max-whidth: 606px) {
+
+    .container6{
+        flex-direction: column;
+    }
+    .container21{
+        flex-direction: column;
+    }
+    .container21 >div{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-whidth: 732px) { 
+    .container20 > div:nth-child(1) {
+        order: 1;
+    }
+    .container20 > div:nth-child(2) {
+        order: 2;
+    }
+    .container20 > div:nth-child(3){
+        order: 3;
+    }
+    .container20 > div:nth-child(4){
+        order: 7;
+    }
+    .container20 > div:nth-child(5){
+        order: 4;
+    }
+    .container20 > div:nth-child(6){
+        order: 5;
+    }
+    .container20 > DIV:nth-child(7){
+        order: 6;
+    }
+}
+@media only screen and (min-whidth: 1000px) {
+    .customDIV2 {
+        background-color: bisque;
+    }
+}
+@media only screen and (min-whidth: 800px) and (max-whidth: 900px) {
+   .customDIV2 {
+        background-color: rgb(95, 45, 10);
+   } 
+}
+@media only screen and (min-whidth: 850px) and (max-whidth: 860px) {
+    .customDIV2 {
+        background-color: coral;
+    }
+}  
+
+    
