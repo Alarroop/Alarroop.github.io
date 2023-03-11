@@ -2,27 +2,29 @@
 display: grid;
 gap: 30px;
 background-color: lemonchiffon;
-margin: 40px;
+margin: 20px;
 }
 
 .item1 {
-    background-color: peachpuff;
+    background-color: rgb(158, 99, 50);
     grid-column: 1/ span 3;
     grid-row: 1;
-    margin-bottom: 5%;
-    text-decoration: black;
+    margin-bottom: 1%;
+    
 }
 .item2 {
-    background-color: coral;
+    background-color: rosybrown;
     grid-column: 1/span 1;
     grid-row: 2/4;
-    max-width: 100px;
-   
+    max-width: 120px;
+    margin-inline: 10px;
 }
 .item3 {
-    background-color: bisque;
     grid-column:2/4;
     grid-row: 2/3;
+    margin-right: 10px;
+    
+
     
     
 }
