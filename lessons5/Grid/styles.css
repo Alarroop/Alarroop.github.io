@@ -1,12 +1,14 @@
-div{
+div {
+   background-color: brown;
+}
+.extra > div {
     background-color: grey;
-    width: ;
     text-align: center;
-    line-height: 88px;
+    line-height: 80px;
     font-size: 35px;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: auto 158px auto;
  }
@@ -53,5 +55,32 @@ div{
  }
  .item11-7{
     grid-column: 3 / 5;
-    grid-row: 4/ 6;
+    grid-row: 4 / 6;
+ }
+ .container9{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+ }
+ .container10{
+    display: grid;
+    grid-template-columns: auto 160px auto auto;
+    align-content: center;
+    justify-content: space-evenly;
+    height: 700px;
+ }
+ .fromgrid{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .fromgrid > div{
+   margin-right: 5px;
+   margin-bottom: 5px;
+ }
+ .item1-f{
+   width: 75%;
+ }
+ .item2-f{
+   width: 25%;
+
  }
