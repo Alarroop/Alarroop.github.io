@@ -10,19 +10,114 @@
                 line-height: 80px;
                 font-size: 35px;
             }
+            .btn-warning{
+                --bs-btn-bg: #388740;
+                --bs-btn-hover-bg: #383018;
+            }
         </style>
     </head>
     <body>
         
-        <h2>Boodstrap</h2>
-        <h2>Grid/ Flex Align/Justify</h2>
-        <div class="row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3"><p>Lorem ipsum dolor sit amet.</p></div>
-                    <div class="col-7"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
-                </div>
+        <h1>Boodstrap</h1>
+        <div class="extra">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+        </div>
+        <h2>Grid/Flex</h2>
+        <div class="extra container">
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+                <div class="col">8</div>
+                <div class="col">9</div>
+                <div class="col">10</div>
+                <div class="col">11</div>
+                <div class="col">12</div>
+            </div>
+            <div class="row">
+                <div class="col-3">1</div>
+                <div class="col-5">2</div>
+                <div class="col-4">3</div>
+                <div class="col-sm-6 col-lg-2">4</div>
+                <div class="col-sm-6 col-lg-10">5</div>
+                <div class="col-5">6</div>
+                <div class="col-auto">7</div>
+                <div class="col-4">8</div>
+                <div class="col">9</div>
+                <div class="col">10</div>
+                <div class="col">11</div>
+                <div class="col">12</div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3"><p>Lorem ipsum dolor sit amet.</p></div>
+                        <div class="col-7"><p>Lorem ipsum dolor sit amet.2</p></div>
+                    </div>
+                </div>                
             </div>
         </div>
+
+        <h2>Grid/ Flex Align/Justify</h2>
+        <div class="container extra">
+            <div class="row justify-content-between align align-content-center" style="height: 200px;">
+                <div class="col-5">1</div>
+                <div class="col-3">2</div>
+                <div class="col-3">3</div>
+            </div>
+        </div>
+        <h2>Beadcrums</h2>
+        <p>Home-> About Us</p>
+        
+        <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Moosid</a> li>
+            <li class="breadcrumb-item"><a href="#">Maasika</a> li>
+            <li class="breadcrumb-item">Suhkruga</li>   
+        </ol>
+        </nav>
+        <button>OK</button>
+        <button class="btn btn-warning">OK</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Card</h2>
+        <div class="card" style="width: 250px;">
+            <img class="card-img" src="IMG_1630.JPG">
+            <div class="card-body">
+                <h5 class="card-header">Tuulik</h5>
+                <p class="card-text">Paarid tantsimas.</p>
+                <a class="btn btn-primary" href="#">Täpsemalt</a>
+            </div>
+        </div>
+        <h2>Collapse</h2>
+        <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#showText">SHOW</button>
+        <button class="btn btn-success" data-bs-toggle="collapse" data-bs-target="#showText2">SHOW2</button>
+        <div class="collapse" id="showText">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, cupiditate maxime impedit ex dignissimos id, pariatur soluta architecto non recusandae quis est similique ratione excepturi, amet ipsam ut omnis reprehenderit quo quam! Voluptatum nesciunt incidunt inventore quos illo cumque in architecto nostrum placeat nobis saepe tenetur libero aut accusamus corporis ipsa, minus odit! Asperiores doloribus sapiente tempora nulla soluta recusandae, quaerat ullam corrupti mollitia commodi ad natus totam excepturi vel nisi repudiandae perspiciatis molestias aliquid voluptatem hic veritatis, neque impedit tempore rerum? Praesentium aliquam minima ut recusandae quod corrupti! Fuga perferendis, enim officiis aliquid deleniti numquam aperiam eius ducimus neque.</p>
+        </div>
+        <div class="collapse" id="showText2">
+            <p>Tere</p>
+        </div>
+        <h2>Dropdown</h2>
+        <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">Drop</button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item">1</li>
+                <li class="dropdown-item">2</li>
+                <li class="dropdown-item">3</li>
+                <li class="dropdown-item">4</li>
+            </ul>
+        </div>
+
     </body>
 </html>
