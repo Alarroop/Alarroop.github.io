@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="scripts.js"></script>
+         
+    </head>
+    <body>
+
+        <h1> Javascript</h1>
+            <p id= "firstPara">
+                <span>123</span><br>
+                <strong>123</strong>
+            </p>
+            <p>
+            <button onclick="onClick1()">CLIK ME</button>
+            <button onclick="onClick2(`Tere Maailm`)">CLIK ME 2</button>
+            <p> Siin on muutuv nimi: <span id="span1"></span></p>
+            <button onclick="onClick3()">CLIK ME 3</button>
+            <button onclick="onClick4()">CLIK ME 4</button>
+            <button onclick="onClick5()">CLIK ME 5</button>
+
+            </p>
+    
+            <p><span class="counter">Counter 1</span></p>
+            <button id="minus" onclick="changeCounter(minus)">-1</button>
+            <button id="plus" onclick="changeCounter(plus)">+1</button>
+            <button id="reset" onclick="changeCounter(reset)">Reset</button>
+
+            
+            <script>
+               
+                var counter = document.querySelector(".counter");
+                let count = 0;
+                function changeCounter(button) {
+                  if (button == plus) {
+                    count += 1;
+                  } else if (button == minus) {
+                    if (count > 0) count -= 1; 
+                  } else if (button == reset) {
+                    count = 1;
+                  }
+                  counter.innerHTML = count;
+                }
+              </script>
+    </body>
+   
+</html>
