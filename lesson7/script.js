@@ -168,7 +168,7 @@ function emtyFunction() {
 
 var nimi1="Alar";
 var nimi2="Arlis";
-console.log(nimi1,nimi2);
+
 
 function onclik() {
     var para = document.getElementById("firstPara");
@@ -177,7 +177,7 @@ function onclik() {
 }
 
 function onclik2(text){
-    var para = document.getElementById("firstPara");
+    var para = document.getElementById("para");
     para .innerHTML=text;
     console.log(para);
 }
