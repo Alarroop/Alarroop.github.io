@@ -82,6 +82,7 @@
                 </div>
             </div>
            
+            
             <div class="col"> 
                 <div class="card" style="width: 500px;">
                     <div class="card h-100">
@@ -114,6 +115,16 @@
                 </div>
             </div>
         </div>
+        <div class="col"> 
+            <div class="card" style="width: 423px;">
+            <div class="card h-100">
+          <h2>Registreeritud</h2>
+                <ul id="regList">
+                    <li class="osalejad"></li>
+                 </ul>
+    
+            
+
         <div class="modal fade" id="bootstrapform" tabindex="-1" aria-labelledby="bootstrapformLabel"
             aria-hidden="true">
             <div class="modal-dialog">
@@ -128,26 +139,28 @@
                 aria-label="Close"></button>
         </div>
         <div class="modal-body">
-                <div class="form-floating" style="margin-bottom: 25px;">
-                   <form style="font-family: bold; line-height: 20px;">
+            <div class="form-floating" style="margin-bottom: 25px;">
+                <form style="font-family: bold; line-height: 20px;">
                     
-                    <div>
-                        <label style="float: left;">Nimi: <input type="text" name="Nimi" style="float: right;"><br />
-                        <label style="float: left;">e-mail: <input type="text" name="e-mail" style="float: right;"><br />
-                        <label style="float: left;">Kuupäev: <input type="text" name="e-mail" style="float: right;"><br />
-                    </form>
-                            <div class="modal-dialog">
-                                <button type="button" class="btn btn-primary">Edasta</button>
-                            </div> 
-                    </div>
+                <div>
+                    <label style="float: left;">Nimi: <input type="text" name="Nimi" style="float: right;"><br />
+                    <label style="float: left;">e-mail: <input type="text" name="e-mail" style="float: right;"><br />
+                    <label style="float: left;">Kuupäev: <input type="text" name="e-mail" style="float: right;"><br />
+                </form>
+                    <div class="col-sm-1">
+                    <button class="btn btn-primary" onclick="Add()">Edasta</button>
+            </div>
+                    </div> 
                 </div>
             </div>
-                
-           
+        </div>
+            
+            <script src="./script.js"></script>
+        
         
            
          
-        </body>
+    </body>
 </html>
 
         
