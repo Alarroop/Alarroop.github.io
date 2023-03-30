@@ -86,3 +86,38 @@ for(let i = 0; i < tiles.length; i++) { // Loop all elements.
     });
 }
 history.length()
+window.history.back();
+history.back();
+history.forward();
+history.go();
+
+function nextSlide() {
+    var slide;
+    if (currentSlide == 4) {
+      slide = 1;
+    } else {
+      slide = currentSlide + 1;
+    }
+  
+    history.pushState(slide, null, null);
+    goToSlide(slide);
+    return false;
+  }
+  
+  function previousSlide() {
+    var slide;
+    if (currentSlide == 1) {
+      slide = 4;
+    } else {
+      slide = currentSlide - 1;
+    }
+  
+    history.pushState(slide, null, null);
+    goToSlide(slide);
+    return false;
+  }
+  window.onpopstate = function(e) {
+    if (e.state != null) {
+      goToSlide(e.state);
+    }
+  }
