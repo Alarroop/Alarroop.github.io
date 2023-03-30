@@ -117,12 +117,16 @@
         </div>
         <div class="col"> 
             <div class="card" style="width: 423px;">
-            <div class="card h-100">
-          <h2>Registreeritud</h2>
+                <div class="card h-100">
+                    <div id="reg">
+        <h2>Registreeritud</h2>
                 <ul id="regList">
-                    <li class="osalejad"></li>
+                    <li id="osalejad"></li>
                  </ul>
-    
+                    </div>
+                </div>
+            </div>
+        </div>
             
 
         <div class="modal fade" id="bootstrapform" tabindex="-1" aria-labelledby="bootstrapformLabel"
@@ -143,7 +147,7 @@
                 <form style="font-family: bold; line-height: 20px;">
                     
                 <div>
-                    <label style="float: left;">Nimi: <input type="text" name="Nimi" style="float: right;"><br />
+                    <label style="float: left;">Nimi: <input type="text" name="Nimi" id="myname" style="float: right;"><br />
                     <label style="float: left;">e-mail: <input type="text" name="e-mail" style="float: right;"><br />
                     <label style="float: left;">Kuupäev: <input type="text" name="e-mail" style="float: right;"><br />
                 </form>
@@ -155,7 +159,7 @@
             </div>
         </div>
             
-            <script src="./script.js"></script>
+            <script src="./scripts.js"></script>
         
         
            

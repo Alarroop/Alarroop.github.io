@@ -85,3 +85,4 @@ for(let i = 0; i < tiles.length; i++) { // Loop all elements.
         MakeMove(i);
     });
 }
+history.length()
